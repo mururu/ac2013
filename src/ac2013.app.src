@@ -1,0 +1,12 @@
+{application, ac2013,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ac2013_app, []}},
+  {env, []}
+ ]}.
